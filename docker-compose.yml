@@ -2,7 +2,6 @@ version: '3'
 services:
   create_qr_code:
     build: .
-    image: create_qr_code
+    image: ittimfn/create_qr_code
     volumes:
       - ./output:/output
-      - ./create_qr_code.sh:/create_qr_code.sh

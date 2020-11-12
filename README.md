@@ -10,12 +10,17 @@ Dockerコンテナに構築するので事前にDockerとdocker-compose用意し
 
 ```
 docker-compose build
-docker run create_qr_code <URL> <QRコードのファイル名>
+docker-compose run create_qr_code <変換元文字列> <QRコードパス>
 ```
 
-## 出力パス
+### 出力パス
 
 output配下に出力される。
+
+## 課題
+
+- コンテナを起動したらそのまま自動削除したい。
+- DockerHubに登録しておいて、イメージだけで変換できるようにしたい。
 
 ## 参考
 

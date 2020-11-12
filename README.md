@@ -21,5 +21,5 @@ output配下に出力される。
 
 [Qiita:QRコードを生成するコマンド](https://qiita.com/tukiyo3/items/5ad2b034761858058a27)
 
-[](https://amaya382.hatenablog.jp/entry/2017/04/03/034002)  
+[水底:Docker Composeでビルド時に任意のイメージ名を指定する方法](https://amaya382.hatenablog.jp/entry/2017/04/03/034002)  
 docker-compose build時にイメージ名を指定する。
